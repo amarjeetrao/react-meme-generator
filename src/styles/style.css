@@ -1,7 +1,7 @@
+
 @tailwind base;
 
 /*-----------------custom base style start--------------------*/
-
 
 /*-----------------custom base style ends---------------------*/
 
@@ -9,12 +9,53 @@
 
 /*-----------------custom components style start--------------------*/
 
+.container-fluid {
+  @apply w-3/6 mx-auto;
+}
+
+.header {
+  @apply flex justify-between items-center;
+}
+
+.header__img {
+  @apply w-1/3 p-8;
+}
+
+.heading {
+  @apply text-5xl font-extrabold pr-8;
+}
+
+.main {
+}
+
+.meme-form {
+}
+
+.top-text-input {
+}
+
+.bottom-text-input {
+}
+
+.button {
+}
+
+.meme-section {
+}
+
+.meme-img {
+}
+
+.top-text {
+}
+
+.bottom-bottom {
+}
 
 /*-----------------custom components style ends---------------------*/
 
 @tailwind utilities;
 
 /*-----------------custom utilities style start--------------------*/
-
 
 /*-----------------custom utilities style ends---------------------*/

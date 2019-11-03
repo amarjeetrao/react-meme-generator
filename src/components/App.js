@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import Header from "./header";
+import MemeGenerator from "./memegenerator";
 
 const App = () => {
-    return (
-        <div>
-            <h1 className="font-mono">Hello React</h1>
-        </div>
-    )
-}
+  return (
+    <React.Fragment>
+      <Header />
+      <MemeGenerator />
+    </React.Fragment>
+  );
+};
 
-export default App
+export default App;
