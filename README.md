@@ -10,4 +10,4 @@ Then follow up these steps :-
      > NOTE - prefix sudo followed by given command
   
   2. Run ``` npm start build ``` to build the react app & visit the Generated URL.
-    > NOTE - parcel generate mostly this url [http://localhost:1234/](http://localhost:1234/)
+     > NOTE - parcel generate mostly this url [http://localhost:1234/](http://localhost:1234/)
